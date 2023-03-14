@@ -1,0 +1,116 @@
+*{
+    font-family: 'Mukta', sans-serif;
+    /* background-color: rgb(11, 9, 27); */
+}
+
+.copyright{
+    text-decoration: none;color: black;
+    font-weight: bold;
+    color: blue;
+}
+.navbtn{
+    font-size: 2rem;
+}
+
+/* yaha se u4m ka slider hai  */
+.u4mslider{
+	overflow: hidden;
+	/* text-decoration: none; */
+	margin-top: 12em;
+}
+.u4mslider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 9s u4mslider infinite;
+}
+.u4mslider figure img {
+	width: 20%;
+	float: left;
+
+}
+@keyframes u4mslider{
+	0%{
+		left: 0;
+	}
+	33%{
+		left: 0;
+	}
+	35%{
+		left: -100%;
+	}
+	70%{
+		left: -100%;
+	}
+	75%{
+		left: -200%;
+	}
+
+	100%{
+		left: -200%;
+	}
+}
+.marquee{
+	font-size: 4rem;
+	color: red;
+	background-color: #fff9af;
+
+
+}
+.images{
+	text-align: center;
+	align-items: center;
+}
+#nextyou{
+margin: auto;
+/* height: 100%; */
+}
+
+
+/* yaha se u4m1 ka slider hai  */
+.u4mslider1{
+	overflow: hidden;
+	/* text-decoration: none; */
+	margin-top: 1em;
+	margin: auto;
+}
+.u4mslider1 figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 9s u4mslider infinite;
+}
+.u4mslider1 figure img {
+	width: 20%;
+	float: left;
+
+}
+@keyframes u4mslider1{
+	0%{
+		left: 0;
+	}
+	33%{
+		left: 0;
+	}
+	35%{
+		left: -100%;
+	}
+	70%{
+		left: -100%;
+	}
+	75%{
+		left: -200%;
+	}
+
+	100%{
+		left: -200%;
+	}
+}
+.ourstaff{
+	text-align: center;
+	font-size: 2rem;
+	margin: auto;
+	margin-top: 2rem;
+}
